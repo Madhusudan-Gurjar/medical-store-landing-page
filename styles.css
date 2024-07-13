@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-section {
+    background: url('bg.jpg') no-repeat center center/cover;
+    color: rgb(238, 159, 98);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.hero-section h2 {
+    font-size: 4em;
+    /* margin: 0;
+    margin-top: 0.5em; */
+    background-color: brown;
+    
+    
+
+}
+
+.hero-section p {
+    font-size: 2em;
+    color: rgb(226, 10, 10);
+}
+
+.hero-section .btn {
+    background: #28a745;
+    color: white;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 5em;
+    font-size: 2em;
+    
+}
+
+.about-section,
+.products-section,
+.contact-section {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+
+.products-section .product-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.products-section .product-item {
+    background: #f8f9fa;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.products-section .product-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section form label,
+.contact-section form input,
+.contact-section form textarea {
+    width: 80%;
+    margin-bottom: 1em;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-section form .btn {
+    background: #007bff;
+    color: white;
+    padding: 0.5em 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #343a40;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+.div1{
+    font-size: 40px;
+    text-align: center;
+    color: red;
+}
